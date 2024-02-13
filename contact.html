@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <title>ePortfolio Home</title>
+  <link rel="stylesheet" href="standard.css">
+  <meta charset="utf-8">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="contact">
+    <form action="#" method="post">
+  
+      <label for="fname" required>First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname" required>Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label>
+        Service
+        <select name="service" required>
+            <option value="1" selected>Walking the Dog</option>
+            <option value="2" selected>Mowing the Lawn</option>
+            <option value="3" selected>Cooking a Nice Dinner</option>
+            <option value="4" selected>Sitting some Babies</option>
+            <option value="5" selected>Shoveling a Driveway</option>
+            <option value="6" selected>Vacuuming a Carpet</option>
+            <option value="null" selected>Select a Service</option>
+        </select>
+      </label>
+  
+      <label for="subject">Additional Requests, Comments, or Questions</label>
+      <textarea id="subject" name="subject" placeholder="Type here..." style="height:50px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+</body>
+</html>
